@@ -2,15 +2,15 @@
 This project is a simple web application built using Flask that scrapes news headlines from the Yahoo Finance website and displays them on a web page. The app uses BeautifulSoup for web scraping and Flask-Bootstrap for styling.
 
 ## Features
-*Scrapes the latest news headlines from Yahoo Finance.
-*Displays the headlines as clickable links on the homepage.
-*Utilizes Flask-Bootstrap for a responsive design.
+1. Scrapes the latest news headlines from Yahoo Finance.
+2. Displays the headlines as clickable links on the homepage.
+3. Utilizes Flask-Bootstrap for a responsive design.
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 
-*Python 3.x installed on your machine.
-*pip (Python package installer) is available.
+- Python 3.x installed on your machine.
+- pip (Python package installer) is available.
 
 ## Installation
 Clone the Repository
@@ -52,10 +52,10 @@ python app.py
 Access the Application Open your web browser and navigate to **http://127.0.0.1:5000/**. You should see a list of the latest Yahoo Finance news headlines.
 
 ## File Structure
-**app.py:** The main Flask application file.
-**templates/index.html:** The HTML template for rendering the news headlines.
-**requirements.txt:** Contains the list of dependencies required to run the application.
-**README.md:** This file.
+- **app.py:** The main Flask application file.
+- **templates/index.html:** The HTML template for rendering the news headlines.
+- **requirements.txt:** Contains the list of dependencies required to run the application.
+- **README.md:** This file.
 
 ## Troubleshooting
 If you encounter any issues:
