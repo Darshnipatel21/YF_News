@@ -1,0 +1,12 @@
+{% include "header.html" %}
+
+<!-- Page Header-->
+<div style="background-color: #FEFBD8">
+
+  <ul class="list-group list-group-flush" >
+    {% for i in range(links|length) %}
+    <li class="list-group-item">{{ i + 1 }}. <a href="{{ links[i] }}">{{ texts[i] }}</a></li>
+    {% endfor  %}
+  </ul>
+</div>
+{% include "footer.html" %}
